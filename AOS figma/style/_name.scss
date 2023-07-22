@@ -1,0 +1,382 @@
+.name {
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
+    
+
+    .flex5 {
+
+        .slavar2 {
+
+            p {
+                color: #8643DC;
+                font-size: 18px;
+            }
+
+
+            
+            .slow {
+                display: flex;
+                justify-content: space-between;
+
+                h1 {
+                    color: #25202F;
+                    font-size: 36px;
+                }
+
+
+                .slow1 {
+                    
+                    a {
+                        color: #25202F;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+
+        .foto4 {
+            display: flex;
+
+            img {
+                width: 600px;
+            }
+        }
+    }
+
+    .flex6 {
+
+        .slavar3 {
+
+            p {
+                color: #8643DC;
+                font-size: 18px;
+            }
+
+            h1 {
+                color: #25202F;
+                font-size: 36px;
+            }
+        }
+
+        .photo {
+            display: flex;
+
+            img {
+                width: 230px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1024px) {
+    .name {
+
+        .flex5 {
+
+            .slavar2 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                .slow {
+
+                    h1 {
+                        font-size: 35px;
+                    }
+
+                    .slow1 {
+
+                        a {
+                            font-size: 24px;
+                        }
+
+                        img {
+                            width: 24px;
+                        }
+                    }
+                }
+            }
+
+            .foto4 {
+
+                img {
+                    width: 480px;
+                }
+            }
+        }
+
+        .flex6 {
+
+            .slavar3 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 35px;
+                }
+            }
+
+            .photo {
+
+                img {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .name {
+
+        .flex5 {
+
+            .slavar2 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                .slow {
+
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                    .slow1 {
+
+                        a {
+                            font-size: 24px;
+                        }
+
+                        img {
+                            width: 24px;
+                        }
+                    }
+                }
+            }
+
+            .foto4 {
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 480px;
+                }
+            }
+        }
+
+        .flex6 {
+
+            .slavar3 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+
+            .photo {
+
+                img {
+                    width: 140px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .name {
+
+        .flex5 {
+
+            .slavar2 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                .slow {
+
+                    h1 {
+                        font-size: 25px;
+                    }
+
+                    .slow1 {
+
+                        a {
+                            font-size: 20px;
+                        }
+
+                        img {
+                            width: 24px;
+                        }
+                    }
+                }
+            }
+
+            .foto4 {
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 450px;
+                }
+            }
+        }
+
+        .flex6 {
+
+            .slavar3 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 25px;
+                }
+            }
+
+            .photo {
+
+                img {
+                    width: 80px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:375px) {
+    .name {
+
+        .flex5 {
+
+            .slavar2 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                .slow {
+
+                    h1 {
+                        font-size: 25px;
+                    }
+
+                    .slow1 {
+
+                        a {
+                            font-size: 18px;
+                        }
+
+                        img {
+                            width: 24px;
+                        }
+                    }
+                }
+            }
+
+            .foto4 {
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 400px;
+                }
+            }
+        }
+
+        .flex6 {
+
+            .slavar3 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 25px;
+                }
+            }
+
+            .photo {
+
+                img {
+                    width: 70px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .name {
+
+        .flex5 {
+
+            .slavar2 {
+
+                p {
+                    font-size: 16px;
+                }
+
+                .slow {
+
+                    h1 {
+                        font-size: 20px;
+                    }
+
+                    .slow1 {
+
+                        a {
+                            font-size: 16px;
+                        }
+
+                        img {
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+
+            .foto4 {
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 350px;
+                }
+            }
+        }
+
+        .flex6 {
+
+            .slavar3 {
+
+                p {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    font-size: 20px;
+                }
+            }
+
+            .photo {
+
+                img {
+                    width: 60px;
+                }
+            }
+        }
+    }
+}

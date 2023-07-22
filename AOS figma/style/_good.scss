@@ -1,0 +1,107 @@
+.good {
+
+    .flex8 {
+        display: flex;
+        gap: 20px;
+
+        .slavar6 {
+
+            p {
+                color: #8643DC;
+                font-size: 18px;
+            }
+
+            h1 {
+                color: #25202F;
+                font-size: 36px;
+            }
+        }
+
+        .drink1 {
+
+            p {
+                color: #8643DC;
+                font-size: 16px;
+            }
+
+            h1 {
+                color: #000;
+                font-size: 20px;
+            }
+        }
+
+
+    }
+}
+
+
+@media (max-width:1024px) {
+    .good {
+
+        .flex8 {
+
+            .slavar6 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 35px;
+                }
+            }
+
+            .drink1 {
+
+                img {
+                    width: 350px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    font-size: 20px;
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .good {
+
+        .flex8 {
+
+            .slavar6 {
+
+                p {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+
+            .drink1 {
+
+                img {
+                    width: 350px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    font-size: 20px;
+                }
+
+            }
+        }
+    }
+}
+

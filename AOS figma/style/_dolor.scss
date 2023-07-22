@@ -1,0 +1,347 @@
+.dolor {
+    position: relative;
+    .flex7 {
+
+        .slavar4 {
+            
+            p {
+                color: #8643DC;
+                font-size: 18px;
+            }
+
+            h1 {
+                color: #25202F;
+                font-size: 36px;
+            }
+        } 
+
+        .abs {
+            position: absolute;
+            
+            img {
+                filter: blur(2px);
+            }
+        }
+
+        .slavar5 {
+            background: url(/foto/url1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            .img6 {
+
+                p {
+                    color: #636066;
+                    font-size: 16px;
+                }
+
+                .slow2 {
+
+                    h1 {
+                        color: #000;
+                        font-size: 20px;
+                    }
+
+                    p {
+                        color: #000;
+                        font-size: 16px;
+                    }
+
+                    
+                }
+            }
+        }
+    }
+}
+
+   body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-pagination {
+        color: #8643DC;
+    }
+
+    @media (max-width:1024px) {
+        .dolor {
+
+            .flex7 {
+
+                .slavar4 {
+
+                    p {
+                        font-size: 18px;
+                    }
+
+                    h1 {
+                        font-size: 35px;
+                    }
+                }
+
+                .swiper-slide {
+
+                    .slavar5 {
+                        width: 100%;
+
+                        .img6 {
+
+                            img {
+                                width: 42px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                            }
+
+                            .slow2 {
+
+                                img {
+                                    width: 160px;
+                                }
+
+                                h1 {    
+                                    font-size: 20px;
+                                }
+
+                                p {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width:768px) {
+        .dolor {
+            
+            .flex7 {
+
+                .slavar4 {
+
+                    p {
+                        font-size: 18px;
+                    }
+
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+
+                .swiper-slide {
+
+                    .slavar5 {
+
+                        .img6 {
+
+                            img {
+                                width: 40px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                            }
+
+                            .slow2 {
+
+                                img {
+                                    width: 150px;
+                                }
+
+                                h1 {    
+                                    font-size: 20px;
+                                }
+
+                                p {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width:425px) {
+        .dolor {
+            
+            .flex7 {
+
+                .slavar4 {
+
+                    p {
+                        font-size: 18px;
+                    }
+
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+
+                .swiper-slide {
+
+                    .slavar5 {
+
+                        .img6 {
+
+                            img {
+                                width: 35px;
+                            }
+
+                            p {
+                                font-size: 11px;
+                            }
+
+                            .slow2 {
+
+                                img {
+                                    width: 120px;
+                                }
+
+                                h1 {    
+                                    font-size: 18px;
+                                }
+
+                                p {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width:375px) {
+        .dolor {
+            
+            .flex7 {
+
+                .slavar4 {
+
+                    p {
+                        font-size: 16px;
+                    }
+
+                    h1 {
+                        font-size: 25px;
+                    }
+                }
+
+                .swiper-slide {
+
+                    .slavar5 {
+
+                        .img6 {
+
+                            img {
+                                width: 30px;
+                            }
+
+                            p {
+                                font-size: 10px;
+                            }
+
+                            .slow2 {
+
+                                img {
+                                    width: 110px;
+                                }
+
+                                h1 {    
+                                    font-size: 18px;
+                                }
+
+                                p {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width:320px) {
+        .dolor {
+            
+            .flex7 {
+
+                .slavar4 {
+
+                    p {
+                        font-size: 14px;
+                    }
+
+                    h1 {
+                        font-size: 20px;
+                    }
+                }
+
+                .swiper-slide {
+
+                    .slavar5 {
+
+                        .img6 {
+
+                            img {
+                                width: 20px;
+                            }
+
+                            p {
+                                font-size: 8px;
+                            }
+
+                            .slow2 {
+
+                                img {
+                                    width: 100px;
+                                }
+
+                                h1 {    
+                                    font-size: 16px;
+                                }
+
+                                p {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

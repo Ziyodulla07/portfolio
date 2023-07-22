@@ -1,0 +1,54 @@
+.drink {
+    height: 100vh;
+    .flex9 {
+
+        .slavar7 {
+
+            p {
+                color: #8643DC;
+                font-size: 18px;
+            }
+
+            .slow3 {
+                display: flex;
+                justify-content: space-between;
+
+                h1 {
+                    color: #21232D;
+                    font-size: 36px;
+                }
+
+                a {
+                    color: #8643DC;
+                    font-size: 24px;
+                }
+            }
+
+
+            .inp {
+                
+                input {
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid grey;
+                    width: 100%;
+                    padding: 20px;
+                    font-size: 20px;
+                    color: #A8A0B0;
+                }
+            }
+
+            .btn1 {
+
+                .btn2 {
+                    font-size: 18px;
+                    color: #fff;
+                    background-color: #8643DC;
+                    border: none;
+                    padding: 10px 40px;
+                    border-radius: 100px;
+                }
+            }
+        }
+    }
+}

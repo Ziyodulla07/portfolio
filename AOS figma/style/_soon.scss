@@ -1,0 +1,220 @@
+.soon {
+
+    .flex3 {
+
+        .slavar {
+
+            p {
+                font-size: 18px;
+                color: #8643DC;
+            }
+
+            h1 {
+                font-size: 36px;
+                color: #25202F;
+            }
+        }
+
+        .cc {
+            display: flex;
+            gap: 30px;
+
+            .flex4 {
+
+                .slavar1 {
+                    
+                    .st {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    h1 {
+                        font-size: 24px;
+                        color: #25202F;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        color: #47444E;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    .soon {
+
+        .flex3 {
+
+            .slavar {
+
+                p {
+                    font-size: 14px;
+                }
+
+                h1 {
+                    font-size: 35px;
+                }
+            }
+
+            .cc {
+                text-align: center;
+
+                .flex4 {
+
+                    .slavar1 {
+
+                        .st {
+
+                            h1 {
+                                font-size: 22px;
+                            }
+
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .soon {
+
+        .flex3 {
+            text-align: center;
+
+            .slavar {
+
+                p {
+                    font-size: 14px;
+                }
+
+                h1 {
+                    font-size: 35px;
+                }
+            }
+
+            .cc {
+                flex-direction: column;
+                text-align: center;
+
+                .flex4 {
+
+                    .slavar1 {
+                        
+
+                        .st {
+                            display: block;
+
+                            h1 {
+                                font-size: 20px;
+                            }
+
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .soon {
+
+        .flex3 {
+            text-align: center;
+
+            .slavar {
+
+                p {
+                    font-size: 14px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+
+            .cc {
+                flex-direction: column;
+                text-align: center;
+
+                .flex4 {
+
+                    .slavar1 {
+                        
+
+                        .st {
+                            display: block;
+
+                            h1 {
+                                font-size: 20px;
+                            }
+
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .soon {
+
+        .flex3 {
+            text-align: center;
+
+            .slavar {
+
+                p {
+                    font-size: 14px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+
+            .cc {
+                flex-direction: column;
+                text-align: center;
+
+                .flex4 {
+
+                    .slavar1 {
+                        
+
+                        .st {
+                            display: block;
+
+                            h1 {
+                                font-size: 20px;
+                            }
+
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
